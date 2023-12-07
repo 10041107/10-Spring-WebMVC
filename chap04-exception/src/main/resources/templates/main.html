@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1> Excaption Handler 사용하기</h1>
+
+<h3> @ExceptionHandler</h3>
+<button onclick="location.href = 'controller-null'"> NULL pointerException 테스트</button>
+
+    <h3> @MemberRegistException</h3>
+    <button onclick="location.href = 'controller-user'"> MemberRegistException테스트</button>
+
+
+    <h2> global Excaption handler</h2>
+    <h3> @MemberRegistException</h3>
+    <button onclick="location.href = 'other-controller-null'"> global null pointer</button>
+    <button onclick="location.href = 'other-controller-user'"> global costom pointer</button>
+    <button onclick="location.href = 'other-controller-array'"> global Exception</button>
+
+
+
+</body>
+</html>
